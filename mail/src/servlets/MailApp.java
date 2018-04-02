@@ -41,6 +41,10 @@ public class MailApp extends HttpServlet {
  
 		 try {
 			pst=con.prepareStatement("select * from mail");
+			/**
+			 *  CREATE TABLE  "MAIL" (	"MAILID" VARCHAR2(4000) )
+			 *  insert some mail ids 
+			 */
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
