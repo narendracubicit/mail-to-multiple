@@ -81,3 +81,4 @@ public class MailApp extends HttpServlet {
         out.println("Mail send successfully");
     }   
 }
+// by narendra cubicit
